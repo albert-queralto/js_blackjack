@@ -10,11 +10,13 @@ This project is a simple implementation of the classic card game Blackjack. It i
 - Visual representation of cards and scores.
 
 ## How to Play
-1. Open the `index.html` file in a web browser.
-2. Click "Start Game" to begin.
-3. Use the "Hit" button to draw a card or "Stand" to end your turn.
-4. The dealer will then play their turn automatically.
-5. The game will display the winner based on the rules of Blackjack.
+1. Clone the repository
+2. Execute ```npm install``` to build the node modules.
+3. Type ```npm run dev``` to run the development server.
+4. Click "Start Game" to begin.
+5. Use the "Get Card" button to draw a card or "Stop" to end your turn.
+6. The dealer will then play their turn automatically.
+7. The game will display the winner based on the rules of Blackjack.
 
 ## Rules of Blackjack
 - The goal is to have a hand value as close to 21 as possible without exceeding it.
@@ -24,7 +26,7 @@ This project is a simple implementation of the classic card game Blackjack. It i
 - The dealer must draw cards until their hand value is at least 17.
 
 ## Assets
-The `assets/cartas/` folder contains images for all the cards in a standard deck, as well as back designs for the cards.
+The `public/assets/cartas/` folder contains images for all the cards in a standard deck, as well as back designs for the cards.
 
 ## Future Improvements
 - Add multiplayer support.
