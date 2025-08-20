@@ -9,21 +9,6 @@ This project is a simple implementation of the classic card game Blackjack. It i
 - Dealer logic to simulate a real Blackjack game.
 - Visual representation of cards and scores.
 
-## Project Structure
-```
-index.html
-assets/
-	cartas/       # Folder containing card images
-	css/          # Folder containing stylesheets
-	js/           # Folder containing JavaScript files
-```
-
-### Key Files
-- **index.html**: The main HTML file that serves as the entry point for the game.
-- **assets/css/styles.css**: Contains the styles for the game.
-- **assets/js/game.js**: Contains the game logic implemented in JavaScript.
-- **assets/cartas/**: Contains images for all the cards used in the game.
-
 ## How to Play
 1. Open the `index.html` file in a web browser.
 2. Click "Start Game" to begin.
